@@ -1,12 +1,10 @@
 #!/bin/bash
 
-# This script installs the latest development versions of GZDoom, Zandronum and Doomseeker. Run it on Solus based systems.
+# This script installs the latest development versions of GZDoom. Run it on Solus based systems.
 # Do not execute it with root permissions (sudo). At the approprate points it will ask for your sudo password.
 # Make the script executable with "sudo chmod +x SolusBasedDoomInstall.sh" and execute with "./SolusBasedDoomInstall.sh".
 # To update to newer versions, run the script again.
 # To uninstall GZDoom run "sudo rm -rfv /usr/games/gzdoom && sudo rm -fv /usr/bin/gzdoom".
-# To uninstall Zandronum run "sudo rm -rfv /usr/games/zandronum && sudo rm -fv /usr/bin/zandronum && sudo rm -fv /usr/bin/zandronum-server".
-# To uninstall Doomseeker run "sudo rm -rfv /usr/games/doomseeker && sudo rm -fv /usr/bin/doomseeker".
 # All of the commands shown above are to be run without the quotation marks ("").
 # After instalation has finished you can remove the three *_build ddirectories made in your /home/username folder.
 # You still need to provide the appropriate .wad files (doom.wad, doom2.wad, plutonia.wad, tnt.wad) and configure the clients and source ports yourself.

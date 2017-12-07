@@ -215,9 +215,7 @@ echo 'export LD_LIBRARY_PATH=/usr/games/doomseeker' >> doomseeker && \
 echo 'exec /usr/games/doomseeker/doomseeker "$@"' >> doomseeker && \
 chmod 755 doomseeker && \
 sudo mv -v doomseeker /usr/bin
-rm -rf "$HOME"/doomseeker_build
-rm -rf "$HOME"/gzdoom_build
-rm -rf "$HOME"/zandronum_build
+
 echo "The install has finished. You are now free to exit this script either by pressing Ctrl+c or by closing the terminal."
 
 done
